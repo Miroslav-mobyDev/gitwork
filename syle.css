@@ -13,3 +13,42 @@ p{
 ul{
     list-style: none;
 }
+/*Последнее домашнее задание второго модуля*/
+.h4{
+    font-size: 30px;
+    text-align: center;
+    color:darkgreen
+}
+.h3{
+    
+    color:fuchsia;
+    font-size:20px;
+}
+.text2{
+    background-color: aliceblue;
+    font-size: 20px;
+}
+.text3{
+    background-color: aliceblue;
+    font-size: 30px;
+    font-weight: 900;
+}
+.container{
+    background-color: indigo;
+    background-image: url(https://vkplay.ru/hotbox/content_files/Stories/2024/03/21/4eeaf6c79f644806872153a10df98391.jpg);
+}
+
+/*Задание 3*/
+.container2{
+    margin:20px;
+    border:2px solid black;
+    padding:30px
+    
+}
+/*Задание 4*/
+.container3{
+    width:1000px;
+    height:1000px;
+    border:2px solid black;
+    overflow:scroll;
+}
