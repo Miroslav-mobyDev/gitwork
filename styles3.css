@@ -1,0 +1,33 @@
+/*Задание 1*/
+body{
+    background-color: deeppink;
+}
+.container{
+    background-color: blue;
+    height:100px;
+    width:100px;
+    font-size: 1em;
+    color:red;
+}
+.container1{
+    background-color: aqua;
+    height:50%;
+    width:50%;
+}
+.text2{
+    font-size: 2rem;
+    color:blueviolet;
+}
+/*Задание 2*/
+.block{
+    background-color: #db0303;
+    color:#2db112;
+}
+.block1{
+    background-color: rgb(255,255,0);
+    color:rgb(143, 25, 50)
+}
+.block2{
+    background-color: rgba(255,255,0,0.5);
+    color:rgba(143, 25, 50,0.5);
+}
