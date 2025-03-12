@@ -1,9 +1,9 @@
 /*Задание 1*/
 body{
-    background-color: deeppink;
+    background-color: rgb(20, 208, 255);
 }
 .container{
-    background-color: blue;
+    background-color: blue; /*Задаю контейнерам размеры разными способами*/
     height:100px;
     width:100px;
     font-size: 1em;
@@ -30,4 +30,21 @@ body{
 .block2{
     background-color: rgba(255,255,0,0.5);
     color:rgba(143, 25, 50,0.5);
+}
+/*Задание по уроку Линейные и Блочные Элементы*/
+.in_header{
+    background-color: #2db112;/*Блочным элементам по умолчанию я задаю свойство inlineи они становятся строчными*/
+    display:inline;
+}
+.in_text{
+    background-color: #db0303;
+    display: inline;
+}
+.in_container{
+    background-color: blue;
+    display:inline;
+}
+.in_item{/*Здесь наоборот строчный элемент делаю блочным*/
+    background-color: chocolate;
+    display:block;
 }
