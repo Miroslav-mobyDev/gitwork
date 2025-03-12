@@ -64,3 +64,36 @@ body{
 .at_link{
     display: block;
 }
+/*Задания по псевдоклассам*/
+/*Задание 1*/
+.button:hover{
+background-color: #2db112;
+}
+.input:focus{
+border-color:#2db112;
+outline: none;
+}
+/*Задание 2*/
+.list-element:first-child{
+    font-size: 30px;
+}
+.list-element:last-child{
+    font-size:50px;
+}
+/*Задание 3*/
+.task3_item:nth-child(odd){ /*Стилизация для нечетных элементов*/
+font-size: 100px;
+}
+.task3_t:hover{/*Изменение цвета ссылки при наведении курсора*/
+color:#2db112;
+}
+/*Задание 4*/
+.task4_item{
+    color:red;
+}
+.task4_item:first-child:hover{
+    color:#2db112;
+}
+.task4_item:last-child:focus{
+    font-weight: 900;
+}
