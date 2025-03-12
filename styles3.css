@@ -48,3 +48,19 @@ body{
     background-color: chocolate;
     display:block;
 }
+/*Задание 3 по уроку Блочных и строчных элементов просто задаю отступы внешние и внутренние и делаю все элементы блочными*/
+.at_container{
+    background-color: aliceblue;
+    display: block;
+    margin:100px;
+    padding:100px;
+}
+.at_text{
+    display: block;
+}
+.at_picture{
+    display: block;
+}
+.at_link{
+    display: block;
+}
