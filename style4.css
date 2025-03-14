@@ -1,0 +1,59 @@
+/*Задание 1*/
+.task1_container{ /*Здесь я задал позицию статичную */
+    position:static;
+    background-color: blue;
+}
+.task1_container2{ /*А здесь не задал но этот блок ничем не 
+                                отличается по свойствам потому что по умолчанию у всех позиция и так статична*/
+                                
+background-color: brown;
+}
+/*Задание 2*/ /*Здесь одному блоку я не задал отступу а второму задал.Тоесть относительная позиция позволяет нам смещать элемент с помощью top,right,left,bottom*/
+.task2_container{
+    position: relative;
+    background-color: blueviolet;
+}
+.task2_container2{
+    position: relative;
+    background-color: rgb(255, 8, 0);
+    color:black;
+    top:100px;
+    right:20px;
+}
+/*Задание 3*/
+.task3_container{  /*Здесь мы позиционируем элементы внутри блока относительно самого блока*/
+    position :relative;
+    
+}
+.task3_header{
+    position :absolute;
+    background-color: hotpink;
+    top:100px;
+}
+.task3_text{
+    position:absolute ;
+    top:200px;
+    background-color:darkorange;
+   
+}
+/*Задание 4*/
+.task4_container{  /*Здесь  мы просто фиксируем блок при прокрутке*/
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}
+/*Задание 5*/
+.task5_container{
+    height:2000px;
+    position:sticky;
+}
+.task5_header{
+    position:sticky;
+    background-color: indigo;
+    top:10px;
+}
+
+    
+    
+
+
