@@ -1,0 +1,95 @@
+/*Задание 1*/
+.task1_block{
+    display:block ;
+    
+}
+.task1_block2{          /*Здесь написал inline-block потому что почему то просто inline не принимал свойства*/
+    display:inline-block;
+}
+.task1_block3{        /*Изменения произошли  в блоке с flex*/
+    display:flex;
+}
+.task1_item{ 
+    background-color: rgb(0, 255, 85);
+    padding:20px;
+}
+/*Задание 2*/
+.task2_block{       /*Flex-container и Задание 3 и Задание 4*/
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-end;
+}
+.task2_block2{
+    margin:20px;
+    background-color: blueviolet;
+}
+/*Задание 5*/
+.task5_block{
+    display: flex;
+    border:1px solid black;
+}
+.task5_block2{
+    flex:0 1 0;
+    border:1px solid black;
+}
+.task5_block3{
+    flex:1 0 0;
+    border:1px solid black;
+}
+.task5_block4{
+    flex:0 0 100px;
+    border:1px solid black;
+}
+/*Задание 6*/
+.task6_block{
+    display:flex;
+    flex-wrap: wrap;
+}
+.task6_block2{
+    flex:1 1 50%;
+    background-color: brown;
+}
+.task6_block3{
+    flex:1 1 50%;
+    background-color: rgb(0, 145, 212);
+}
+.task6_block4{
+    flex:1 1 100px;
+    background-color: aqua;
+}
+/*Задание 7*/
+.task7_block{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.task7_link{
+    background-color: rgb(255, 0, 0);
+    color:aliceblue;
+    
+}
+/*Задание 8*/
+.task8_block{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    width:100px;
+
+}
+.task8{
+    flex-grow:2;
+    flex-shrink: 2;
+    flex-basis: 20px;                          /*Здесь вместо свойства flex разделяюего на три свойства*/
+    border:3px solid black;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
