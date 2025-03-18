@@ -1,0 +1,13 @@
+h1{
+    font-family: "Ubuntu", Lobster;
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face{
+    font-family: MyFont;
+    src:url(./Lobster/Lobster-Regular.ttf),url(./Ubuntu/Ubuntu-Light.ttf);
+    
+}
+p{
+font-family: MyFont;
+}
