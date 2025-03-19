@@ -41,3 +41,64 @@
     height:400px;
     background:radial-gradient(circle at center , yellow,green);
 }
+/*Transformation&animation homework*/
+/*Задание 1*/
+.tr_block{
+    width: 600px;
+    height:400px;
+    background-color: aqua; /*Поворачиваю на 45 градусов*/
+    transform: rotate(45deg);
+}
+.tr_block2{
+    width: 600px;
+    height:400px;
+    background-color: rgb(54, 0, 250); /*Увеличиваю размер в 2 раза*/
+    transform: scale(2);
+}
+.tr_block3{
+    width: 600px;
+    height:400px;
+    background-color: rgb(21, 250, 0); /*Опускаю элемент на 600px*/
+    transform: translateY(600px);
+    margin-bottom: 1000px;
+}
+.tr_block4{
+    width: 600px;
+    height:400px;
+    background-color: rgb(255, 196, 0); /*Наклон блока по X-20 градусов и Y-10 градусов*/
+    transform: skew(20deg , 10deg);
+    margin-bottom: 1000px;
+}
+/*Задание 2*/
+.tr_block5{
+    width: 600px;
+    height:400px;
+    background-color: rgb(0, 68, 156);
+    margin-bottom: 1000px;
+}
+.tr_block5:hover{
+    transform:scale(2);/*Увеличивает размер в 2 раза при наведении в течении 1 секунды*/
+    transition: 1s;
+}
+/*Задание 3*/
+.tr_block6{
+    width: 600px;
+    height:400px;
+    background-color: rgb(247, 0, 255);
+    margin-bottom: 1000px;
+    animation:Resize 3s ease-in-out 1s infinite;
+}
+@keyframes Resize{
+    0%{
+        transform:scale(1);       /*Анимация в три этапа бесконечная меняет размер и цвет в три этапа*/
+        background-color:red;
+    }
+    50%{
+        transform:scale(1.5);
+       background-color:yellow;
+    }
+    100%{
+        transform:scale(2);
+        background-color: green;
+    }
+}
