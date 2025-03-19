@@ -1,0 +1,43 @@
+.block1{
+    width: 400px;    /*Задание 1*/
+    height:400px;
+    background-color: aqua;
+    box-shadow: 10px 10px 20px 40px;
+}
+.block2{
+    width: 400px;
+    height:400px;
+    background-color: darkgray;
+    box-shadow: 5px 5px 5px 5px;
+}
+/* Задание 2*/
+.header1{
+   
+    text-shadow: 3px 3px 5px rgb(204, 250, 0);
+}
+.header2{
+    text-shadow: 10px 10px 10px rgb(250, 0, 0);
+}
+/*Задание 3*/
+.block3{
+    width: 400px;
+    height:400px;
+    background:linear-gradient(to right , yellow,green);
+    
+}
+.block4{
+    width: 400px;
+    height:400px;
+    background:linear-gradient(to top , yellow,green);
+}
+/*Задание 4*/
+.block5{
+    width: 400px;
+    height:400px;
+    background:radial-gradient(circle at bottom , yellow,green);
+}
+.block6{
+    width: 400px;
+    height:400px;
+    background:radial-gradient(circle at center , yellow,green);
+}
